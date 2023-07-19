@@ -1,1 +1,1 @@
-# mini-projects
+# Sample superstore Data Analysis

@@ -12,14 +12,15 @@ export const HoverEffect = ({ items, className }) => {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 py-10 justify-center ",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 justify-center ",
         className
       )}
     >
       {items.map((item, idx) => (
         <Link
-          href={item?.link}
           key={idx}
+          href={item?.link}
+          target="_blank"
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -41,11 +42,15 @@ export const HoverEffect = ({ items, className }) => {
               />
             )}
           </AnimatePresence>
-          <Card className="w-64 h-80">
-            <SlidingCard title={item.title} description={item.description} logo={item.logo}/>
-            {/* <CardTitle>{item.title}</CardTitle>
+          {/* <Card className="w-64 h-80"> */}
+          <SlidingCard
+            title={item.title}
+            description={item.description}
+            logo={item.logo}
+          />
+          {/* <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription> */}
-          </Card>
+          {/* </Card> */}
         </Link>
       ))}
     </div>

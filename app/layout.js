@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         suppressHydrationWarning
         className={cn(
-          "bg-[#113946] text-[#EAD7BB] min-h-screen min-w-screen",
+          " bg-[#113946] text-[#EAD7BB] min-h-screen min-w-screen",
           geistSans.variable,
           geistMono.variable
         )}

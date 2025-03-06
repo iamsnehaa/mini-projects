@@ -1,38 +1,36 @@
-# Mini Projects Repository
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This repository contains a collection of mini projects covering various domains. Each project is contained within a separate directory and serves a different purpose.
+## Getting Started
 
-## Projects
+First, run the development server:
 
-- **Calculator (`cal`):**
-  - Description: A simple calculator application.
-  - Files: Contains files related to building and running a calculator.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Tinder Matchmaker (`tinder`):**
-  - Description: A basic matchmaking application inspired by Tinder.
-  - Files: Includes files for implementing the matching algorithm and UI components.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Quiz MCQ (`quiz`):**
-  - Description: A multiple-choice quiz application.
-  - Files: Contains files for quiz creation, user interface, and scoring.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-- **QR Code Generator (`qr`):**
-  - Description: Generates QR codes for provided data.
-  - Files: Includes files for generating QR codes programmatically.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- **Resume Builder (`resume`):**
-  - Description: A tool for building professional resumes.
-  - Files: Contains templates and scripts for generating resumes.
+## Learn More
 
-- **To-Do List (`task`):**
-  - Description: A simple to-do list application.
-  - Files: Includes files for task management and user interface.
+To learn more about Next.js, take a look at the following resources:
 
-- **Weather Detector (`weather`):**
-  - Description: Detects and displays weather information.
-  - Files: Contains scripts for fetching weather data and displaying it.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Usage
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Feel free to explore, contribute, or use these projects for learning purposes.
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

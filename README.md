@@ -1,4 +1,4 @@
-# Mini Projects in Next.js
+# Mini Projects 
 
 This repository contains a collection of mini projects built using **Next.js** along with **HTML, CSS, and JavaScript**. Each project is self-contained and demonstrates different functionalities, ranging from productivity tools to utilities.
 
